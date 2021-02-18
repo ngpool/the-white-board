@@ -31,18 +31,18 @@
 
     </head>
         <div id="login">
-          <form name='form-login'>
-            <span class="fontawesome-user"></span>
+
+
 
               <form  action="main.php" method="post">
 
-              <input type="text" id="user" placeholder="Username"value="" required>
+              <input type="text"  placeholder="Username">
 
-            <span class="fontawesome-lock"></span>
-              <input type="password" id"pass" placeholder="Password"value="" required>
+            
+              <input type="text"  placeholder="Password">
 
             <input type="submit"  value="Login">
 
             <button type="button" name="aaa" value="aaa"　>
-          <a href="newregistration.php">新規登録</a>
+          <a href="signup_form.php">新規登録</a>
           </button>
